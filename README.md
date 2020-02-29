@@ -1,3 +1,6 @@
+## The Team
+![Image of us](Untitled.png)
+
 ## Intro
 
 [![Build Status](https://travis-ci.org/thtrieu/darkflow.svg?branch=master)](https://travis-ci.org/thtrieu/darkflow) [![codecov](https://codecov.io/gh/thtrieu/darkflow/branch/master/graph/badge.svg)](https://codecov.io/gh/thtrieu/darkflow)
@@ -7,7 +10,7 @@ Real-time object detection and classification. Paper: [version 1](https://arxiv.
 Read more about YOLO (in darknet) and download weight files [here](http://pjreddie.com/darknet/yolo/). In case the weight file cannot be found, I uploaded some of mine [here](https://drive.google.com/drive/folders/0B1tW_VtY7onidEwyQ2FtQVplWEU), which include `yolo-full` and `yolo-tiny` of v1.0, `tiny-yolo-v1.1` of v1.1 and `yolo`, `tiny-yolo-voc` of v2.
 
 
-See demo below or see on [this imgur](http://i.imgur.com/EyZZKAA.gif)
+
 
 <p align="center"> <img src="demo.gif"/> </p>
 
@@ -275,3 +278,6 @@ flow --pbLoad built_graph/yolo.pb --metaLoad built_graph/yolo.meta --imgdir samp
 If you'd like to load a `.pb` and `.meta` file when using `return_predict()` you can set the `"pbLoad"` and `"metaLoad"` options in place of the `"model"` and `"load"` options you would normally set.
 
 That's all.
+
+## Implementation
+
